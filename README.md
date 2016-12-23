@@ -1,2 +1,2 @@
-# My-Shell-Scripts
-To store shell scripts that I have written for various automations
+# My-Scripts
+To store  scripts that I have written for various automations
