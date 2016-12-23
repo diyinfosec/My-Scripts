@@ -1,0 +1,544 @@
+1|4|4|air-gap
+1|22|22|compression
+1|22|22|reverse proxy
+1|23|23|botnet
+1|24|24|apache
+1|24|24|reverse proxy
+1|27|27|access_log
+1|27|27|user-agent string
+1|31|31|referer log
+1|31|33|user-agent string
+1|32|32|access_log
+1|34|37|calamaris
+1|37|37|botnet
+1|38|38|plain text
+1|44|44|access_log
+1|44|44|apache
+1|44|44|useragent_log
+1|45|45|calamaris
+1|48|48|derivative log file
+1|49|49|search string
+1|50|50|calamaris
+1|55|55|proxy cache extraction
+1|62|62|objects by url
+1|65|65|remove header
+1|66|66|determine content type
+1|67|68|examine content
+1|68|68|base64
+1|68|68|proxy cache extraction
+1|70|70|pcap file format
+1|76|76|tshark
+1|77|77|message based
+1|79|79|stream based
+1|81|81|application reassembly
+1|85|85|tshark
+1|86|88|pcap file format
+1|89|90|bpf primitive
+1|89|90|vlan
+1|90|90|directionality
+1|92|92|data reduction
+1|97|97|pcap file format
+1|108|108|compression
+1|118|118|data reduction
+1|118|119|tshark
+1|119|119|tshark option
+1|121|122|tshark
+1|124|124|malware analysis
+1|124|124|system forensics
+1|128|128|data frame
+1|128|128|management frame
+1|128|128|pcap file format
+1|128|130|evidence type
+1|130|130|collector
+1|130|130|ipfix
+1|131|131|span port
+1|131|132|vlan
+1|137|137|layer 7 source
+1|138|138|internal netflow data
+1|139|139|external source
+1|142|142|network design
+1|143|143|byod
+1|143|143|cloud
+1|143|143|optimization
+1|143|143|tunnel
+1|143|143|vlan
+1|145|145|mx
+1|147|148|tunnel
+1|149|149|bpf primitive
+1|149|149|vlan
+1|150|150|optimization
+1|153|153|geolocation
+1|154|154|cloud
+1|155|155|data reduction
+1|155|155|vlan
+1|156|156|byod
+1|157|157|master
+1|160|160|project management
+1|160|164|network data acquisition
+1|162|162|network design
+1|163|163|ad-hoc
+1|165|165|netwitness
+1|167|167|capture platform design
+1|168|168|collector
+1|168|168|tshark
+1|168|169|processing software
+1|169|169|tcpflow
+1|169|169|tcpxtract
+1|170|171|what to capture
+1|171|171|collector
+1|171|171|netflow architecture
+2|9|9|collector
+2|9|9|netflow architecture
+2|11|12|ipfix
+2|13|13|collector
+2|13|13|sctp
+2|14|14|netflow v5 header
+2|15|15|tcpflag
+2|15|16|autonomous system
+2|16|16|system forensics
+2|17|17|collector
+2|17|17|ipfix
+2|17|17|template record
+2|20|20|ipfix
+2|20|20|vlan
+2|21|21|legal compliance
+2|22|22|collector
+2|22|22|sctp
+2|25|25|nfcapd
+2|25|25|nfsen
+2|25|25|silk
+2|26|26|legal compliance
+2|28|28|ipfix
+2|28|29|silk
+2|31|32|rwfileinfo
+2|31|32|rwfilter
+2|31|32|rwidsquery
+2|31|32|rwpmatch
+2|31|32|silk
+2|32|32|compression
+2|33|36|nfcapd
+2|36|36|autonomous system
+2|39|39|malware analysis
+2|39|39|nfcapd
+2|40|40|autonomous system
+2|42|42|directionality
+2|42|42|nfcapd
+2|45|47|nfsen
+2|49|49|collector
+2|49|51|nfsen
+2|51|51|botnet
+2|51|51|geolocation
+2|51|51|nfsight
+2|51|51|port tracker
+2|51|51|sshcure
+2|51|51|surfmap
+2|53|54|nfsen
+2|60|60|network design
+2|61|61|ad-hoc
+2|64|64|ipfix
+2|64|64|networkminer
+2|64|65|netwitness
+2|65|65|collector
+2|67|67|ipfix
+2|69|69|botnet
+2|69|69|ipfix
+2|71|71|riverbed steelcentral packet analyzer personal edition
+2|72|72|networkminer
+2|74|74|data reduction
+2|74|75|networkminer
+2|77|78|networkminer
+2|81|81|bar chart
+2|83|83|bar chart
+2|85|85|logstash
+2|88|88|information seeking mantra
+2|89|89|bar chart
+2|92|94|geolocation
+2|101|101|bar chart
+2|101|101|http response code
+2|103|103|tshark
+2|104|104|passivedns
+2|106|106|evidence type
+2|107|107|passivedns
+2|110|110|information seeking mantra
+2|111|111|passivedns
+2|113|114|gnuplot
+2|116|116|gnuplot
+2|123|123|dora
+2|123|124|dhcp process
+2|126|127|dhcp server config
+2|127|127|dhcpd.conf
+2|128|129|dhcp log
+2|130|130|mx
+2|130|130|tunnel
+2|131|131|optimization
+2|131|132|compression
+2|131|132|dns compression
+2|132|132|mx
+2|137|137|dns query logging
+2|137|137|passivedns
+2|138|139|tunnel
+2|139|139|dns tunneling
+2|140|140|fast flux
+2|142|142|fast flux
+2|144|144|fast flux
+2|145|146|dga
+2|146|146|cryptolocker
+2|146|146|dora
+2|147|148|amplification attack
+2|147|148|botnet
+3|8|8|byod
+3|10|10|request component
+3|10|11|keep-alive
+3|11|13|request string
+3|12|12|request component
+3|12|12|tunnel
+3|14|14|request component
+3|15|15|http request method
+3|15|15|request string
+3|17|17|keep-alive
+3|18|18|compression
+3|18|18|request component
+3|18|18|user-agent string
+3|19|19|base64
+3|21|22|apache
+3|21|22|keep-alive
+3|25|25|apache
+3|25|26|keep-alive
+3|26|27|compression
+3|27|27|http response code
+3|28|28|base64
+3|28|28|user-agent string
+3|32|32|networkminer
+3|32|32|transfer-encoding
+3|32|32|tshark
+3|34|34|netwitness
+3|34|34|xplico
+3|34|35|networkminer
+3|35|35|apache
+3|35|35|tcpxtract
+3|38|38|logoff
+3|38|38|tshark
+3|50|51|os determination
+3|53|53|os determination
+3|61|61|command channel
+3|61|61|data channel
+3|63|63|command channel
+3|63|63|data channel
+3|65|65|command channel
+3|69|70|command channel
+3|69|70|data channel
+3|71|71|networkminer
+3|72|72|tshark
+3|82|82|ettercap
+3|83|83|master
+3|84|84|ad-hoc
+3|84|84|control frame
+3|84|84|rfmon
+3|84|85|basic service set
+3|88|88|distribution system
+3|88|88|wds
+3|96|96|802.11 frame type
+3|96|96|data frame
+3|96|97|control frame
+3|96|98|management frame
+3|97|97|deauth
+3|100|100|control frame
+3|101|102|data frame
+3|102|102|ipsec
+3|102|102|tkip
+3|103|103|distribution system
+3|103|103|wds
+3|105|105|basic service set
+3|105|105|wds
+3|108|108|data frame
+3|108|108|master
+3|108|109|rfmon
+3|108|109|wpa2
+3|109|109|ipsec
+3|112|112|evil twin
+3|112|112|rsn
+3|112|112|wpa2
+3|112|112|wps
+3|113|113|initialization vector
+3|114|114|rfmon
+3|116|116|initialization vector
+3|117|117|master
+3|117|117|wpa2
+3|119|119|wpa2
+3|119|121|wps
+3|119|122|reaver
+3|121|121|wpa2
+3|122|122|rfmon
+3|124|124|control frame
+3|124|124|tkip michael check
+3|124|125|deauth
+3|124|126|mdk3
+3|124|126|tkip
+3|125|125|data frame
+3|129|129|multi ssid ap
+3|129|129|vlan
+3|130|130|master
+3|130|132|evil twin
+3|131|131|pineapple
+3|131|131|social engineering toolkit
+3|133|133|windows 8
+3|133|133|windows os bridging
+3|134|134|infrastructure rogue
+3|135|135|master
+3|135|135|rfmon
+3|135|136|wpa2
+3|137|137|infrastructure evidence
+3|137|137|vlan
+3|140|141|tshark
+3|144|145|mda
+3|144|145|msa
+3|144|145|mta
+3|144|145|mua
+3|144|145|mx
+3|144|145|outlook
+3|145|145|e-mail message flow
+3|146|146|esmtp id
+3|147|147|mda
+3|147|147|msa
+3|147|147|mta
+3|147|147|mua
+3|147|147|mx
+3|148|149|starttls
+3|149|149|basic smtp transaction
+3|149|149|envelope
+3|149|149|smtp body
+3|149|150|master
+3|149|150|mta
+3|149|150|mx
+3|149|150|smtp header
+3|150|150|esmtp id
+3|150|150|mda
+3|150|150|transfer-encoding
+3|151|152|base64 encoding
+3|151|154|base64
+3|152|154|mime part
+3|153|154|smtp header
+3|153|154|transfer-encoding
+3|155|155|mta
+3|156|156|ntlm
+3|156|156|plain text
+3|156|157|base64
+3|156|158|authentication method
+3|158|158|native ssl
+3|158|159|starttls
+3|160|160|mda
+3|160|160|smtp header
+3|163|164|ntlm
+3|163|164|sharepoint
+3|163|166|outlook
+3|166|166|authentication method
+3|166|166|ntlm
+3|168|171|smb 3
+3|169|170|server 2012
+3|169|171|windows 8
+3|170|170|smb clients by version
+3|172|172|goals for smb analysis
+3|173|173|cloud
+3|174|174|tshark
+3|175|175|protocol negotiation
+3|175|175|server 2012
+3|175|175|smb2 command
+3|175|175|windows 8
+3|175|176|logoff
+3|176|176|unlocking a file
+3|177|177|protocol negotiation
+3|178|178|session establishment
+3|180|180|obtain network directory metadata
+3|180|180|outlook
+3|181|181|opening a file
+3|182|182|locking a file for access
+3|183|183|reading from a file
+3|184|184|unlocking a file
+3|185|185|closing a file
+3|186|186|tree disconnection
+3|187|187|logoff
+3|189|189|utf-16
+3|191|191|server 2012
+3|191|191|windows 8
+3|192|192|apache
+3|192|192|authentication method
+3|192|192|iis
+3|192|194|sharepoint
+3|193|196|ntlm
+3|194|194|authentication method
+3|195|195|plain text
+3|195|197|pass-the-hash
+3|197|197|pth attack indicator
+4|9|9|elsa
+4|9|9|syslog server
+4|10|10|iptables
+4|11|11|syslog server
+4|13|13|wildcard
+4|17|17|syslog network transaction
+4|17|17|syslog-ng
+4|25|25|collector
+4|27|29|collector
+4|30|31|syslog server
+4|31|31|collector
+4|34|37|apache
+4|34|37|http log
+4|35|35|iis
+4|35|35|plain text
+4|37|37|user-agent string
+4|38|39|iis
+4|40|40|http request method
+4|40|40|request string
+4|43|43|user-agent string
+4|44|44|http log
+4|44|44|plain text
+4|45|45|access_log
+4|46|46|http log
+4|48|48|http log
+4|56|56|command channel
+4|61|61|tshark
+4|62|62|directionality
+4|62|67|iptables
+4|66|66|command channel
+4|74|74|air-gap
+4|75|75|networkminer
+4|75|75|xplico
+4|79|79|directionality
+4|79|79|plain text
+4|83|83|tcpflow
+4|83|83|tshark
+4|91|92|live research
+4|92|93|osint
+4|94|94|live research
+4|98|98|osint
+4|99|99|air-gap
+4|100|100|live research
+4|101|101|guard intelligence
+4|103|103|deliberate modification
+4|104|104|filesystem modification
+4|107|107|osint
+4|107|108|serial number
+4|111|111|filesystem modification
+4|112|112|dns query logging
+4|112|113|deliberate modification
+4|116|116|http log
+4|117|117|logging shortfalls
+4|118|118|outlook
+4|119|119|dora
+4|123|123|distributed log storage and analysis
+4|124|124|real-time networked logging
+4|126|126|syslog-ng
+4|126|126|syslog server
+4|127|127|comprehensive log aggregation
+4|127|127|elsa
+4|127|127|logstash
+4|130|130|apache
+4|130|130|dora
+4|130|130|logging innovation
+4|130|130|syslog-ng
+4|130|130|tunnel
+4|132|132|ad-hoc
+4|133|133|elasticsearch
+4|133|137|logstash
+4|134|134|ad-hoc
+4|134|134|dga
+4|135|135|grok
+4|136|136|elasticsearch
+4|136|137|kibana
+4|137|137|apache
+4|137|137|iptables
+4|137|137|plain text
+4|139|141|elsa
+4|140|140|ad-hoc
+4|140|140|syslog-ng
+4|143|143|elsa
+4|145|145|elsa
+4|145|145|logstash
+4|147|147|search string
+4|149|149|nfcapd
+4|151|151|simple aggregation
+4|151|151|syslog server
+4|152|152|iptables
+4|152|152|search string
+4|154|154|master
+5|7|7|compression
+5|7|7|utf-16
+5|7|9|base64
+5|8|9|base64 encoding
+5|12|12|strength of algorithm
+5|13|13|asymmetric
+5|13|13|block cipher
+5|13|13|stream cipher
+5|13|14|symmetric
+5|15|18|stream cipher
+5|18|19|block cipher
+5|19|19|dora
+5|19|19|initialization vector
+5|20|20|asymmetric
+5|20|21|public key encryption
+5|20|21|symmetric
+5|23|23|symmetric
+5|27|27|compression
+5|28|28|public key encryption
+5|29|30|compression
+5|31|31|serial number
+5|34|34|keep-alive
+5|35|36|wildcard
+5|38|38|tunnel
+5|39|39|dns correlation
+5|41|41|dns correlation
+5|41|41|ssldump
+5|41|41|tshark
+5|41|42|networkminer
+5|43|43|ssldump
+5|44|44|tshark
+5|51|51|public key encryption
+5|51|51|traffic manipulation
+5|61|61|ettercap
+5|61|61|traffic manipulation
+5|63|63|vlan
+5|67|69|ipsec
+5|67|74|tunnel
+5|69|69|compression
+5|72|74|ipsec
+5|73|73|directionality
+5|74|74|compression
+5|74|74|keep-alive
+5|77|77|directionality
+5|81|81|keep-alive
+5|82|82|iis
+5|82|83|mx
+5|84|84|user-agent string
+5|86|87|user-agent string
+5|87|88|keep-alive
+5|89|89|base64
+5|91|91|keep-alive
+5|91|91|user-agent string
+5|94|94|plain text
+5|95|95|compression
+5|97|97|compression
+5|103|103|flowgrep
+5|103|103|tcpflow
+5|104|104|libnids
+5|105|105|tcpflow
+5|106|106|tcpslice
+5|107|108|ngrep
+5|108|108|libnids
+5|108|108|tcpflow
+5|108|109|flowgrep
+5|110|111|tcpstat/tcpdstat
+5|111|111|gnuplot
+5|112|115|tcptrace
+5|115|115|wds
+5|115|116|data channel
+5|116|116|command channel
+5|117|117|geolocation
+5|117|119|ntopng
+5|120|120|tcpxtract
+5|121|121|geolocation
+5|121|122|xplico
+5|124|124|ngrep
+5|124|124|tcpflow
+5|124|124|tcpxtract
+5|124|124|tshark
+5|124|125|xplico
+5|130|130|data reduction
