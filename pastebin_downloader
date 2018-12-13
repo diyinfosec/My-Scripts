@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#- Author: Ramprasad Ramshankar
+#- Alias: diyinfosec
+#- Date: 13-Dec-2018
+#- Purpose: Downloads the raw files for an input list of pastebin URLs.
+#- Useful if you have sensitive data contained in multiple pastebin URLs and want to quickly get the raw files for assessment. 
+#- Might be a simplistic script but have found it useful more than once. 
+#- Language:  bash script
+
+#- This is the file containing the list of pastebin URLs
+pastebin_url_file="/tmp/pastebin.txt"
+
+while read pastebin_url
+do
+	#- Setting output file name to be the last part of the pastebin url
+	file_name=$(echo $pastebin_url | awk -F '/' '{print $NF}')
+	#echo $file_name
+	
+	#- Getting the URL for the raw file
+	raw_file_url=$(echo $pastebin_url | awk -F"/" '{for(i=1;i<NF;i++) prefix=prefix $i FS; print prefix"raw/"$NF;}')
+	
+	#- Download the file from pastebin.com. Note: if the file already exists in the directory it will be over-written
+	#- Original URL: https://pastebin.com/Y0MypwM8
+	#- Raw URL: https://pastebin.com/raw/Y0MypwM8
+	http_response_code=$(curl --silent -o $file_name --write-out "%{http_code}" $raw_file_url)
+
+	#- Validating HTTP response code from the curl command
+	if test $http_response_code -ne 200
+	then
+		echo "Failed to download file. HTTP response code is" $http_response_code". Failed URL is:" $pastebin_url
+	else
+		echo "Successfully downloaded raw file" $file_name "for" $pastebin_url
+	fi
+done<$pastebin_url_file
